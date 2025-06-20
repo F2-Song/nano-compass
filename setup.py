@@ -12,7 +12,7 @@ def get_requires() -> list[str]:
 
 def main():
     setup(
-        name="nanocompass",
+        name="nano-compass",
         version=get_version(),
         packages=find_packages(),
         install_requires=[
